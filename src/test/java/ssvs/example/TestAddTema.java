@@ -1,4 +1,4 @@
-package ssvv.example;
+package ssvs.example;
 
 import domain.Tema;
 import org.junit.jupiter.api.Test;
