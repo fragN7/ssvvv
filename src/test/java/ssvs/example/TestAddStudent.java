@@ -24,7 +24,7 @@ public class TestAddStudent {
     private StudentValidator studentValidator;
     private Service service;
 
-    @BeforeAll
+    /*@BeforeAll
     static void createXML() {
         File xml = new File("fisiere/studentiTest.xml");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(xml))) {
@@ -42,7 +42,7 @@ public class TestAddStudent {
     @AfterAll
     static void removeXML() {
         new File("fisiere/studentiTest.xml").delete();
-    }
+    }*/
 
     @Test
     public void testAddStudentDuplicate(){
